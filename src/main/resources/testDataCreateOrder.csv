@@ -1,0 +1,8 @@
+﻿login;password;firstName;statusCode;ок;message
+required;required;required;201;true;
+required;required;not;201;true;
+duplicate;duplicate;duplicate;409;;Этот логин уже используется
+required;not;not;400;;Недостаточно данных для создания учетной записи
+not;required;not;400;;Недостаточно данных для создания учетной записи
+not;not;required;400;;Недостаточно данных для создания учетной записи
+not;required;not;400;;Недостаточно данных для создания учетной записи
