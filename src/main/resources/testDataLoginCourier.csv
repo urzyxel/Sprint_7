@@ -1,0 +1,5 @@
+﻿login;password;statusCode;message
+required;required;200;
+required;not;400;Недостаточно данных для входа
+not;required;400;Недостаточно данных для входа
+not_found;required;404;Учетная запись не найдена
